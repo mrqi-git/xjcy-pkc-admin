@@ -18,10 +18,11 @@ fs.open('./build/env.js', 'w', function(err, fd) {
 
 module.exports = merge(webpackBaseConfig, {
     output: {
-        //publicPath: 'https://iview.github.io/iview-admin/dist/',  // 修改 https://iv...admin 这部分为你的服务器域名 
+        //publicPath: 'https://iview.github.io/iview-admin/dist/',  // 修改 https://iv...admin 这部分为你的服务器域名
         //publicPath: 'http://10.191.194.63:8089/xjcy-pkc-admin/dist/',
         //publicPath: 'http://admin.xjcy.pkc.nat123.net:8089/xjcy-pkc-admin/dist/',
-        publicPath: 'http://admin.xjcy.pkc.nat123.net:8089/xjcy-pkc-admin/dist/',
+        //publicPath: 'https://lijie080615.github.io/xjcy-pkc-admin/dist/',
+        publicPath: 'https://lijie080615.github.io/xjcy-pkc-admin/dist/',
         filename: '[name].[hash].js',
         chunkFilename: '[name].[hash].chunk.js'
     },
